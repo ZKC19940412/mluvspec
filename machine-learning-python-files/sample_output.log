@@ -1,0 +1,27 @@
+Train Data Size:  (1520, 1544)
+Max feature value: 260.776
+Mean feature value: 10.448
+Min feature value: -10.584
+Std feature value: 16.978
+
+
+Performing 10-fold cross validation ....
+
+Random State: 0
+MAE test(meV): 23.09
+MSE test(meV): -0.05
+
+
+Transfer learning molecule:  guaiacol
+MAE cross test (meV): 37.62
+MSE cross test (meV): -22.09
+
+
+Transfer learning molecule:  aminophenol
+MAE cross test (meV): 36.94
+MSE cross test (meV): -30.15
+
+
+Transfer learning molecule:  pDMB
+MAE cross test (meV): 38.70
+MSE cross test (meV): -6.33

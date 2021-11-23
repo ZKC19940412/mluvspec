@@ -1,0 +1,52 @@
+[BISPECTRUM]
+numTypes = 4
+twojmax = 18 18 18 18 
+rcutfac = 1.0
+rfac0 = 0.99363
+rmin0 = 0.0
+wj = 0.75 1.0 0.8 0.9
+radelem = 1.2 2.8 2.8 2.94
+type = H C N O
+
+[CALCULATOR]
+calculator = LAMMPSSNAP
+stress = 0
+force = 0
+
+[GROUPS]
+group_sections = name training_size testing_size eweight
+group_types = str float float float
+random_sampling = 0
+
+[SCRAPER]
+scraper = xyz
+property_array =
+        positions = length metal metal
+        lattice = length metal metal
+        forces = force metal metal
+        energy = energy metal metal
+[SOLVER]
+solver = SVD
+
+[PATH]
+dataPath = ./ccsd_extxyz
+groupFile = ./grouplist_aromatic.in
+
+[OUTFILE]
+potential = aromatic_pot
+
+[MEMORY]
+override = 1 
+
+
+[REFERENCE]
+units = metal
+atom_style = atomic
+pair_style = zero 10.0
+pair_coeff1 = * *
+
+
+[EXTRAS]
+dump_descriptors = 1
+dump_truth = 0
+dump_weights = 0

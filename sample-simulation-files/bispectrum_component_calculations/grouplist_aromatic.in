@@ -1,0 +1,12 @@
+# name training_size testing_size eweight 
+aminophenol_solution_300K	1 	0 	1
+guaiacol_solution_300K	1 	0 	1
+pDMB_solution_300K      1       0       1
+phenol_solution_300K	1 	0 	1
+anisole_solution_300K	1 	0	1
+oDMB_solution_300K	1 	0 	1
+mDMB_solution_300K	1 	0	1
+hydroquinone_solution_300K	1 	0 	1
+aniline_solution_300K	1 	0	1
+anisidine_solution_300K	1 	0	1
+
