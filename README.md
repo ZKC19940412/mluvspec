@@ -9,7 +9,7 @@ This repository is structured as follow:
     * utility.py: Helper functions for develop_ml_models.py and transfer_learn_with_pre_train_models.py
     
 * simulation-files:
-  * BC_calculations: Molecular geometries and [fitsnap](https://github.com/FitSNAP/FitSNAP) input files used to calculate bispectrum components (BC)
+  * bc_calculations: Molecular geometries and [fitsnap](https://github.com/FitSNAP/FitSNAP) input files used to calculate bispectrum components (BC)
   * fpmd: Input files used to perform fpmd, using [cp2k](https://www.cp2k.org/)
   * spectra_calculations: Input files for spectra calculations at the level of DLPNO-STEOM-CCSD/def2-TZVP, using [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1
   
