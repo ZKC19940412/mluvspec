@@ -5,7 +5,7 @@ This repository is structured as follow:
 * machine-learning-python-files:
     * develop_ml_models.py: Develop 7-molecule (transfer-learing) models using cross-validation scheme
     * sample_output.log: Example output from running develop_ml_models.py with random-state being 0
-    * transfer_learn_with_pre_train_models.py: Transfer-learing for the three target molecules with pre-trained models
+    * transfer_learn_with_pre_train_models.py: Transfer-learing for the target molecules with pre-trained models
     * utility.py: Helper functions for develop_ml_models.py and transfer_learn_with_pre_train_models.py
     
 * simulation-files:
