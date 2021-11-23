@@ -12,16 +12,16 @@ MAE test(meV): 23.09
 MSE test(meV): -0.05
 
 
-Transfer learning molecule:  guaiacol
+Transfer learning molecule:  1,2-methoxyphenol
 MAE cross test (meV): 37.62
 MSE cross test (meV): -22.09
 
 
-Transfer learning molecule:  aminophenol
+Transfer learning molecule:  1,4-aminophenol
 MAE cross test (meV): 36.94
 MSE cross test (meV): -30.15
 
 
-Transfer learning molecule:  pDMB
+Transfer learning molecule:  1,4-dimethoxybenzene
 MAE cross test (meV): 38.70
 MSE cross test (meV): -6.33
