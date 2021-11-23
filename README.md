@@ -1,7 +1,7 @@
 # mluvspec
 Supplyment files of paper "UV-Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning" . 
 
-This repos is structured as follow:
+This repository is structured as follow:
 * Data:
     * Argon_30K.xyz: Argon cluster xyz file, generated at 30K
     
