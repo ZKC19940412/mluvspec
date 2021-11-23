@@ -2,8 +2,11 @@
 Supplyment files of paper "UV-Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning" . 
 
 This repository is structured as follow:
-* Data:
-    * Argon_30K.xyz: Argon cluster xyz file, generated at 30K
+* machine-learning-python-files:
+    * develop_ml_models.py: Develop 7-molecule (transfer-learing) model using cross-validation scheme
+    * sample_output.log: Example output from running develop_ml_models.py with random-state being 0
+    * transfer_learn_with_pre_train_models.py: Transfer-learing for the three target molecules with pre-trained models
+    * utility.py: Helper functions for develop_ml_models.py and transfer_learn_with_pre_train_models.py
     
 * Code and notebook:
   * BFGS_ase_reference.ipynb: Jupyter note book illusrating geometry optimzation with BFGS using [**ASE**](https://wiki.fysik.dtu.dk/ase/) package
