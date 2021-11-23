@@ -14,6 +14,6 @@ This repository is structured as follow:
   * spectra_calculations: Input files for spectra calculations at the level of DLPNO-STEOM-CCSD/def2-TZVP, using [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1
   
 * training-set-and-pre-train-model:
-   * descriptors.tar.gz: Bispectrum component (BC) descriptors computed for the 7-molecule (transfer-learing) model
+   * descriptors.tar.gz: BC descriptors computed for the 7-molecule (transfer-learing) model
    * pre_train_models.tar.gz: Pre-trained 7-molecule (transfer-learing) models
    * target_energies.tar.gz: Lowest excited-state energies calculated with ORCA
