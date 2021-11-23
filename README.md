@@ -8,11 +8,10 @@ This repository is structured as follow:
     * transfer_learn_with_pre_train_models.py: Transfer-learing for the three target molecules with pre-trained models
     * utility.py: Helper functions for develop_ml_models.py and transfer_learn_with_pre_train_models.py
     
-* Code and notebook:
-  * BFGS_ase_reference.ipynb: Jupyter note book illusrating geometry optimzation with BFGS using [**ASE**](https://wiki.fysik.dtu.dk/ase/) package
-  * utility.py: Python helper functions for read/write xyz files and compute energy and force with LJ potential
-  * my_BFGS.py: Python main script to perform geometry optimization with BFGS method
-  * my_GD.py: Python main script to perform geometry optimization with steepest decent method
+* simulation-files:
+  * bispectrum_component_calculations: Molecular geometries and fitsnap[https://github.com/FitSNAP/FitSNAP] input file used to calculate bispectrum component (BC) descriptors
+  * fpmd: Sample input files used to perform fpmd
+  * spectra_calculations: Sample input files for spectra calculations at the level of DLPNO-STEOM-CCSD/def2-TZVP, using ORCA[https://orcaforum.kofo.mpg.de/app.php/portal] 4.2.1
   
 * Reference:
    * [ASE Geometry Optimzation](https://wiki.fysik.dtu.dk/ase/ase/optimize.html)
