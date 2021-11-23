@@ -6,14 +6,14 @@ import os
 import shutil
 
 # Clean up pre-exist files
-#if os.path.exists('descriptors'):
-#	shutil.rmtree('descriptors')
+if os.path.exists('descriptors'):
+  shutil.rmtree('descriptors')
 
-#if os.path.exists('target_energies'):
-#	shutil.rmtree('target_energies')
+if os.path.exists('target_energies'):
+  shutil.rmtree('target_energies')
 
-#if os.path.exists('pre_train_models'):
-#	shutil.rmtree('pre_train_models')
+if os.path.exists('pre_train_models'):
+  shutil.rmtree('pre_train_models')
 
 
 # Declate data path
