@@ -51,7 +51,6 @@ number_of_cross_validation_fold = 10
 
 # Perform model fitting with cross validation
 cvs = cross_validation_scheme(X_train, Y_train, n_cv=number_of_cross_validation_fold)
-np.save('cvs.npy', cvs)
 
 # Compute major statics
 MAE_cv_test = cvs['test_mean_absolute_error'].mean()
