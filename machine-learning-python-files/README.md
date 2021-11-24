@@ -14,7 +14,7 @@ External files required: \
 
     2. Develop 7-molecule model using cross-vadliation scheme.
      
-    3. Perform transfer-learing for 3 target molecules using the 7-molecule model developed at step 2. 
+    3. Perform transfer-learing for 3 target molecules using the 7-molecule model developed at step ii. 
 			      
 -  transfer_learn_with_pre_train_models.py proceeds as follows:
 
