@@ -7,7 +7,7 @@ External files required:
 			1). aromatic.in
 			2). steom_dlpno_ccsd_extxyz
 
-- Warning: "energy = 1.0" shown in xyz files only serve as the place holder for the energy value. We only use fitsnap to compute the descriptors. 
+- Warning: "energy = 1.0" shown in xyz files only serve as the place holder for the energies. We only use fitsnap to compute the descriptors. 
 
 - To set the FitSNAP package into the python path,  set the environment variable as follow:
 ```bash
