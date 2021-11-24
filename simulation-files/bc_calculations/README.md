@@ -14,7 +14,7 @@ External files required:
 export PYTHONPATH="/path/to/FitSNAP"				
 ```  
 
-- To compute BC descriptors with Fitnsap, execute the following line in terminal:
+- To compute BC descriptors with FitSNAP, execute the following line in terminal:
 ```python
 mpirun -n 8 python -m fitsnap3 aromatic.in --nofit 
 ```
