@@ -1,6 +1,6 @@
 # `machine-learning-python-files`
 
-machine-learning-python-files illustrates how to develop machine learing models and perform transfer learing using bispectrum components (BC) descriptors + LASSO algorithm. 
+machine-learning-python-files illustrates how to develop machine-learing models and perform transfer-learing using bispectrum components (BC) descriptors + LASSO algorithm. 
 External files required: 
 		       1). training-set-and-pre-train-model/descriptors.tar.gz 
 		       2). training-set-and-pre-train-model/target_energies.tar.gz
