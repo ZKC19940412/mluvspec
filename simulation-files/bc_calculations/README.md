@@ -1,7 +1,7 @@
 # `bc_calculations`
 
 bc_calculations illustrates how to compute bispectrum components (BC)
-using [fitsnap](https://github.com/FitSNAP/FitSNAP).
+using [FitSNAP](https://github.com/FitSNAP/FitSNAP).
 
 External files required: 
 			1). aromatic.in
