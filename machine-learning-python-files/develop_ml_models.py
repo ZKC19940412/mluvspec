@@ -1,10 +1,10 @@
 import numpy as np
-from sklearn.utils import shuffle
-from utility import cross_validation_scheme
-from utility import transfer_learning_scheme
-from utility import extract_dataset
 import os
 import shutil
+from sklearn.utils import shuffle
+from utility import extract_dataset
+from utility import cross_validation_scheme
+from utility import transfer_learning_scheme
 
 # Clean up pre-exist files
 if os.path.exists('descriptors'):
@@ -19,7 +19,7 @@ data_path = '../training-set-and-pre-train-model'
 # Extract dataset
 extract_dataset(data_path)
 
-# Load in descriptor and target energies for training and transfer-learing sets
+# Load in descriptor and target energies for training and transfer-learning sets
 descriptor_aromatic = np.loadtxt('descriptors/descriptor_aromatic.dat')
 descriptor_aminophenol = np.loadtxt('descriptors/descriptor_aminophenol.dat')
 descriptor_guaiacol = np.loadtxt('descriptors/descriptor_guaiacol.dat')
