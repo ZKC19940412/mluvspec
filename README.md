@@ -11,7 +11,7 @@ This repository is structured as follow:
 * simulation-files:
   * bc_calculations: Molecular geometries and [FitSNAP](https://github.com/FitSNAP/FitSNAP) input files used to calculate bispectrum components (BC)
   * fpmd: Input files used to perform fpmd, using [cp2k](https://www.cp2k.org/)
-  * spectra_calculations: Input files for spectra calculations at the level of DLPNO-STEOM-CCSD/def2-TZVP, using [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1
+  * spectra_calculations: Input files for spectra calculations, using [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1
   
 * training-set-and-pre-train-model:
    * descriptors.tar.gz: BC descriptors computed for the 7-molecule (transfer-learing) model
