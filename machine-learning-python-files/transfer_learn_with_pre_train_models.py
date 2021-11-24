@@ -1,9 +1,9 @@
 import numpy as np
+import os
+import shutil
 from utility import extract_dataset
 from utility import make_estimators
 from utility import transfer_learning_from_pre_train_models
-import os
-import shutil
 
 # Clean up pre-exist files
 if os.path.exists('descriptors'):
