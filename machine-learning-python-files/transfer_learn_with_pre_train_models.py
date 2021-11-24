@@ -31,6 +31,7 @@ energy_guaiacol = np.loadtxt('target_energies/energy_guaiacol.dat')
 energy_pDMB = np.loadtxt('target_energies/energy_pDMB.dat')
 
 # Perfroming transfer learing for three molecules
+print('\n')
 transfer_learning_from_pre_train_models('pre_train_models/',
                          descriptor_guaiacol,
                          energy_guaiacol,
