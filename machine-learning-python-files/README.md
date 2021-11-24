@@ -18,6 +18,6 @@ External files required: \
 			      
 -  transfer_learn_with_pre_train_models.py proceeds as follows:
 
-    1. Load in precomputed BC descriptors and (target) excited state energies for 3 target molecules  and the pre-train-models.
+    1. Load in precomputed BC descriptors, (target) excited state energies for 3 target molecules  and the pre-train-models.
 
     2. Perform transfer-learing for 3 target molecules using the 7-molecule model models. 
