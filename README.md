@@ -16,4 +16,4 @@ This repository is structured as follow:
 * training-set-and-pre-train-model:
    * descriptors.tar.gz: BC descriptors computed for the 7-molecule (transfer-learing) model
    * pre_train_models.tar.gz: Pre-trained 7-molecule (transfer-learing) models
-   * target_energies.tar.gz: Lowest excited-state energies calculated with ORCA
+   * target_energies.tar.gz: Lowest excited-state energies calculated with ORCA 4.2.1
