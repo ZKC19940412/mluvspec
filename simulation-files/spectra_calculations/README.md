@@ -10,4 +10,4 @@ spectra_calculations illustrates how to perform excited state calculations using
 /path/to/orca molecule.inp > molecule.out
 ```
 
-where /path/to/orca is the directory for your orca program, and molecule.inp refers to one of the orca input files for the ten aromatic molecules. 
+where /path/to/orca is the directory for your orca program, and molecule.inp refers to ORCA input files for the ten aromatic molecules. 
