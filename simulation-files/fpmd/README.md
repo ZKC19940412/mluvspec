@@ -10,4 +10,4 @@ External files required: \
 		       3). POTENTIAL \
 		       4). MD.inp
 
-- Note: More instructions on how to run fpmd with our input files can be found [here](https://www.cp2k.org/howto). 
+- Note: More instructions on how to run fpmd using cp2k with can be found [here](https://www.cp2k.org/howto).  
