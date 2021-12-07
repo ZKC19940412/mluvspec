@@ -1,6 +1,6 @@
 # `machine-learning-python-files`
 
-machine-learning-python-files illustrates how to develop machine-learing models and perform transfer-learing using bispectrum components (BC) descriptors + LASSO algorithm. 
+machine-learning-python-files illustrates how to develop machine-learing models and perform transfer-learning using bispectrum components (BC) descriptors + LASSO algorithm. 
 
 External files required: \
 		       1). training-set-and-pre-train-model/descriptors.tar.gz \
@@ -14,10 +14,10 @@ External files required: \
 
     2. Develop 7-molecule model using cross-vadliation scheme.
      
-    3. Perform transfer-learing for 3 target molecules using the 7-molecule model developed at step ii. 
+    3. Perform transfer-learning for 3 target molecules using the 7-molecule model developed at step ii. 
 			      
 -  transfer_learn_with_pre_train_models.py proceeds as follows:
 
-    1. Load in precomputed BC descriptors, (target) excited state energies for 3 target molecules  and the pre-train-models.
+    1. Load in precomputed BC descriptors,  excited state energies for 3 target molecules  and the pre-train-models.
 
-    2. Perform transfer-learing for 3 target molecules using the 7-molecule model models. 
+    2. Perform transfer-learning for 3 target molecules using the 7-molecule model models. 
