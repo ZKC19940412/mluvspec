@@ -1,8 +1,8 @@
 # `spectra_calculations`
 
-spectra_calculations illustrate how to perform excited-state calculations using  [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1.
+spectra_calculations illustrate how to perform spectra calculations using  [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1.
 
-- input folder contains ORCA input files for each of the 10 aromatic molecules to perform excited-state calculations at the level of STEOM-DLPNO-CCSD/def2-TZVP.
+- input folder contains ORCA input files for each of the 10 aromatic molecules to perform spectra calculations at the level of STEOM-DLPNO-CCSD/def2-TZVP.
 -   output folder contains the corresponding output files for  each of the 10 aromatic molecules.
 
 - To perform excited-state calculations using ORCA 4.2.1, execute the following line in terminal:
