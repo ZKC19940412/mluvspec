@@ -16,7 +16,7 @@ if os.path.exists('pre_train_models'):
   shutil.rmtree('pre_train_models')
 
 
-# Declate data path
+# Declare data path
 data_path = '../training-set-and-pre-train-model'
 
 # Extract dataset
@@ -30,7 +30,7 @@ energy_aminophenol = np.loadtxt('target_energies/energy_aminophenol.dat')
 energy_guaiacol = np.loadtxt('target_energies/energy_guaiacol.dat')
 energy_pDMB = np.loadtxt('target_energies/energy_pDMB.dat')
 
-# Perfroming transfer learing for three molecules
+# Perfroming transfer learning for three molecules
 print('\n')
 transfer_learning_from_pre_train_models('pre_train_models/',
                          descriptor_guaiacol,
