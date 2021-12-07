@@ -13,7 +13,7 @@ if os.path.exists('descriptors'):
 if os.path.exists('target_energies'):
 	shutil.rmtree('target_energies')
 
-# Declate data path
+# Declare data path
 data_path = '../training-set-and-pre-train-model'
 
 # Extract dataset
