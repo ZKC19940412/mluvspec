@@ -64,7 +64,7 @@ print('MAE test(meV): %.2f ' % (1000 * MAE_cv_test))
 print('MSE test(meV): %.2f ' % (1000 * MSE_cv_test))
 print('\n')
 
-# Perfroming transfer learing for three molecules
+# Perfroming transfer learning for three molecules
 transfer_learning_scheme(cvs,
                          descriptor_guaiacol,
                          energy_guaiacol,
