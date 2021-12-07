@@ -1,6 +1,6 @@
 # `bc_calculations`
 
-bc_calculations illustrates how to compute bispectrum components (BC)
+bc_calculations illustrate how to compute bispectrum components (BC)
 using [FitSNAP](https://github.com/FitSNAP/FitSNAP).
 
 External files required: 
