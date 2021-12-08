@@ -1,5 +1,5 @@
 # mluvspec
-Supplement files of paper "UV-Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning" . 
+Supplement files of paper ["UV-Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning"] (https://arxiv.org/pdf/2112.02169.pdf) . 
 
 This repository is structured as follow:
 * machine-learning-python-files:
