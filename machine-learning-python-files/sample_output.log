@@ -1,27 +1,24 @@
-Train Data Size:  (1520, 1544)
-Max feature value: 260.776
-Mean feature value: 10.448
+Train Data Size:  (1400, 1544)
+Max feature value:  260.776
+Mean feature value: 10.463
 Min feature value: -10.584
-Std feature value: 16.978
+Std feature value:  17.062
 
 
 Performing 10-fold cross validation ....
 
 Random State: 0
-MAE test(meV): 23.09
-MSE test(meV): -0.05
-
+MAE test(meV): 22.93
+MSE test(meV): 0.12
 
 Transfer learning molecule:  1,2-methoxyphenol
-MAE cross test (meV): 37.62
-MSE cross test (meV): -22.09
-
+MAE cross test (meV): 38.68
+MSE cross test (meV): -21.86
 
 Transfer learning molecule:  1,4-aminophenol
-MAE cross test (meV): 36.94
-MSE cross test (meV): -30.15
-
+MAE cross test (meV): 38.32
+MSE cross test (meV): -30.44
 
 Transfer learning molecule:  1,4-dimethoxybenzene
-MAE cross test (meV): 38.70
-MSE cross test (meV): -6.33
+MAE cross test (meV): 41.69
+MSE cross test (meV): 6.63
