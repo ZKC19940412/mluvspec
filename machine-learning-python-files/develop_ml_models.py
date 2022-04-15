@@ -30,11 +30,8 @@ energy_guaiacol = np.loadtxt('target_energies/energy_guaiacol.dat')
 energy_pDMB = np.loadtxt('target_energies/energy_pDMB.dat')
 
 # Generalize variable names to X_train and Y_train
-X_train = descriptor_aromatic[:1400, :]
-Y_train = energy_aromatic[:1400]
-
-np.savetxt('descriptor_aromatic.dat', X_train)
-np.savetxt('energy_aromatic.dat', Y_train)
+X_train = descriptor_aromatic
+Y_train = energy_aromatic
 
 # Define random state value for shuffle
 random_state_val = None
