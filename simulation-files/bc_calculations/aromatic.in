@@ -41,6 +41,12 @@ solver = SVD
 compute_testerrs = 0
 detailed_errors = 0
 
+[ESHIFT]
+H = 0.0
+C = 0.0
+N = 0.0
+O = 0.0
+
 [PATH]
 dataPath = ./steom_dlpno_ccsd_extxyz
 

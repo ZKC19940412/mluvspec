@@ -34,7 +34,7 @@ X_train = descriptor_aromatic
 Y_train = energy_aromatic
 
 # Define random state value for shuffle
-random_state_val = None
+random_state_val = 0
 X_train, Y_train = shuffle(X_train.copy(), Y_train.copy(), random_state=random_state_val)
 
 # Print major stats
