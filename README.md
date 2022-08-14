@@ -17,3 +17,26 @@ This repository is structured as follow:
    * descriptors.tar.gz: BC descriptors computed for the 7-molecule (transfer-learning) model
    * pre_train_models.tar.gz: Pre-trained 7-molecule (transfer-learning) models
    * target_energies.tar.gz: 1st excited-state energies calculated with [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1
+
+### How to cite?
+```bib
+@article{Chen2022,
+author={Chen, Zekun
+and Bononi, Fernanda C.
+and Sievers, Charles A.
+and Kong, Wang-Yeuk
+and Donadio, Davide},
+title={UV--Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning},
+journal={Journal of Chemical Theory and Computation},
+year={2022},
+month={Aug},
+day={09},
+publisher={American Chemical Society},
+volume={18},
+number={8},
+pages={4891-4902},
+issn={1549-9618},
+doi={10.1021/acs.jctc.1c01181},
+url={https://doi.org/10.1021/acs.jctc.1c01181}
+}
+```
