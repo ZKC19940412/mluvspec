@@ -20,23 +20,25 @@ This repository is structured as follow:
 
 ### How to cite?
 ```bib
-@article{Chen2022,
-author={Chen, Zekun
-and Bononi, Fernanda C.
-and Sievers, Charles A.
-and Kong, Wang-Yeuk
-and Donadio, Davide},
-title={UV--Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning},
-journal={Journal of Chemical Theory and Computation},
-year={2022},
-month={Aug},
-day={09},
-publisher={American Chemical Society},
-volume={18},
-number={8},
-pages={4891-4902},
-issn={1549-9618},
-doi={10.1021/acs.jctc.1c01181},
-url={https://doi.org/10.1021/acs.jctc.1c01181}
+@article{doi:10.1021/acs.jctc.1c01181,
+author = {Chen, Zekun and Bononi, Fernanda C. and Sievers, Charles A. and Kong, Wang-Yeuk and Donadio, Davide},
+title = {UV–Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning},
+journal = {Journal of Chemical Theory and Computation},
+volume = {18},
+number = {8},
+pages = {4891-4902},
+year = {2022},
+doi = {10.1021/acs.jctc.1c01181},
+    note ={PMID: 35913220},
+
+URL = { 
+        https://doi.org/10.1021/acs.jctc.1c01181
+    
+},
+eprint = { 
+        https://doi.org/10.1021/acs.jctc.1c01181
+    
+}
+
 }
 ```
