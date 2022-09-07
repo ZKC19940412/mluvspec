@@ -1,6 +1,8 @@
 # mluvspec
 Supplement files of paper ["UV-Visible Absorption Spectra of Solvated Molecules by Quantum Chemical Machine Learning"](https://pubs.acs.org/doi/10.1021/acs.jctc.1c01181) . 
 
+Full text is also available in research gate and can be accessed [here](https://www.researchgate.net/publication/362421260_UV-Visible_Absorption_Spectra_of_Solvated_Molecules_by_Quantum_Chemical_Machine_Learning)
+
 This repository is structured as follow:
 * machine-learning-python-files:
     * develop_ml_models.py: Develop 7-molecule (transfer-learning) models using cross-validation scheme
