@@ -20,7 +20,7 @@ This repository is structured as follow:
    * pre_train_models.tar.gz: Pre-trained 7-molecule (transfer-learning) models
    * target_energies.tar.gz: 1st excited-state energies calculated with [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal) 4.2.1
 
-### How to cite ?
+### How to cite
 ```bib
 @article{doi:10.1021/acs.jctc.1c01181,
 author = {Chen, Zekun and Bononi, Fernanda C. and Sievers, Charles A. and Kong, Wang-Yeuk and Donadio, Davide},
